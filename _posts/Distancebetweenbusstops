@@ -1,0 +1,28 @@
+---
+layout: post
+title: 2020-6-21   leetcode 26题 
+--- 
+### 题目描述
+公交车站间的距离
+要求：
+环形公交路线上有n个站，按次序从0到n-1进行编号。我们已知每一对相邻公交站之间的距离，distance[i] 表示编号为i的车站和编号为(i+1)%n的车站之间的距离。
+环线上的公交车都可以按顺时针和逆时针的方向行驶。返回乘客从出发点 start 到目的地 destination 之间的最短距离。
+说明：
+**代码：**
+```
+cpp
+public int distanceBetweenBusStops(int[] distance, int start, int destination) {
+        if(distance==null||distance.length==0){
+            return 0;
+        }
+        int sum=0;
+        int dis=0;
+        for(int i = 0; i < distance.length; i++){
+            sum += distance[i];
+            if(i >= Math.min(start,destination) && i < Math.max(start,destination)){
+                dis+=distance[i];
+            }
+        }
+        return Math.min(dis,sum-dis);
+}
+```
