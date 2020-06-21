@@ -9,7 +9,7 @@ name: 陈毅
 description: 抓住机遇 Carpe Diem 把握现在
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://image.baidu.com/search/detail?ct=503316480&z=undefined&tn=baiduimagedetail&ipn=d&word=%E5%A4%B4%E5%83%8F&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=undefined&hd=undefined&latest=undefined&copyright=undefined&cs=3925446856,1372421653&os=3530349095,3206363895&simid=4230301694,652156814&pn=33&rn=1&di=187660&ln=3636&fr=&fmq=1592745688553_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&is=0,0&istype=0&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=0&oriquery=头像&objurl=http%3A%2F%2Fimage.biaobaiju.com%2Fuploads%2F20181003%2F20%2F1538570777-jnTyDSmsXq.jpg&rpstart=0&rpnum=0&adpicid=0&force=undefined
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
 # Flags below are optional
